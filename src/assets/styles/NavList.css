@@ -1,0 +1,23 @@
+.left{
+    height: fit-content;
+    font-size: 23px;
+}
+.left p,.right p,.middle p{
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.middle{
+    height: fit-content;
+    font-size: 12px;
+    font-weight: 200;
+}
+.right{
+    height: fit-content;
+    font-size: 12px;
+    font-weight: 200;
+}
+.store ul,.mac ul,.ipad ul,.iphone ul,.watch ul,.airpods ul,.tvHome ul,.Entertainment ul,.accessories ul,.support ul{
+    flex-direction: column;
+    row-gap: 12px;
+}

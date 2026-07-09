@@ -1,0 +1,59 @@
+.store-slider{
+    height: 70vh;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+}
+.store-slider img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.s-name{
+    position: absolute;
+    top:22%;
+    left:9%;
+    color:transparent;
+    font-size: 80px;
+    background: linear-gradient(90deg, #2e84fb 0%, #ff9f20 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.side-info{
+    width: 370px;
+    text-align: right;
+    position: absolute;
+    right:9%;
+    top:20%
+}
+.side-info h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.side-info a{
+    display: block;
+    text-decoration: none;
+    color: royalblue;
+
+}
+.slider{
+    position: absolute;
+    bottom: 10%;
+    height: 120px;
+    left:0;
+    right:0;
+    padding-left: 140px;
+    padding-right: 120px;
+}
+.slider-carousel{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* column-gap: 20px; */
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}

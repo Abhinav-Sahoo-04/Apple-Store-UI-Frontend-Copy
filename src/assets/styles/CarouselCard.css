@@ -1,0 +1,19 @@
+.carousel-card{
+    height: 100%;
+    width: 140px;
+    margin: 0px 5px;
+    flex-shrink: 0;
+    position: relative;
+}
+.carousel-card img{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+.carousel-card p {
+    position: absolute;
+    bottom: 10px;
+    font-size: 15px;
+    left:30%;
+}

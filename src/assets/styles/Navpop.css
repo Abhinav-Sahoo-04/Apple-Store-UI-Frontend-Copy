@@ -1,0 +1,12 @@
+.nav-pop{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.nav-pop a{
+    color: royalblue;
+    text-decoration: none;
+}
